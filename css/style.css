@@ -1,11 +1,154 @@
+body{
+	margin: 0 auto;
+	font-family: 'Source Sans Pro';
+}
 .logo {
 	display: block;
     margin: auto;
     width: 70%;
     height: 50%;
 }
-h1 {
-	text-align: center;
+h1{font-size: 3em;}
+p{font-size: 1.5em;}
+section h1{padding-top: 30px;}
+.blue{color:#2C3C9E;}
+.hero{
+	width: 100%;
+}
+.mastHero{
+	font-size: 4em;
+}
+.mastSubHero{
+	margin-top: 30px;
+	font-size: 2.3em;
+}
+nav {
+  text-align: center;
+	margin: 25px 0;
+}
+.navImage{
+	height: 4em;
+}
+nav ul {
+  padding-left: 0;
+}
+.mast{
+	background-image: url(../images/landingBg.png);
+	-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+color: #fff;
+}
+.overlay{
+	padding: 75px 0;
+	width: inherit;
+	height: inherit;
+	background-color: rgba(44,60,158, 0.33);
+}
+.button {
+  padding: 10px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #fff;
+  border: 2.5px solid #fff;
+  font-size: 1.3em;
+  font-weight: 800;
+	border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 20px 0;
+	color: #ffa538;
+  margin-right: 10px;
+}
+
+.button:hover {
+  color: #2C3C9E;
+  border-color: #2C3C9E;
+	text-decoration: none;
+}
+
+.button.cta {
+  background: #ffa538;
+  color: #fff;
+  border-color: #ffa538;
+}
+
+a.button.cta:hover {
+  background: #8980f5;
+  color: #fff;
+  border-color: #8980f5;
+}
+.buttons{
+	margin-top: 60px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 5%;
+  text-transform: uppercase;
+  font-size: 1.3em;
+	color: #fff;
+}
+nav a:link, nav a:visited, nav a:hover, nav a:active{
+	text-decoration: none;
+	color: #2C3C9E;
+}
+.mobile-toggle {
+  float: right;
+  clear: both;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  z-index: 999;
+  display: none;
+}
+.pics-wrapper {
+  position: inherit;
+  margin-left: 55%;
+}
+.student-pic {
+background-image: url(../images/students.jpg);
+  -webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+height: 276px;
+}
+.instructor-pic {
+  background-image: url(../images/instructors.png);
+  -webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+height: 275px;
+}
+.uni-pic {
+  background-image: url(../images/colleges.png);
+  -webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+height: 275px;
+}
+
+.about-overlay {
+  text-align: center;
+  font-size: 36px;
+  color: #ffffff;
+  padding-top: 145px;
+  background-color: rgba(44,60,158, 0.33);
+  padding-bottom: 92px;
+
+}
+.next-pic {
+  width: 100%;
+  height: 50%;
 }
 .photo-margin {
   display: flex;
@@ -25,4 +168,24 @@ h1 {
 .india-map {
   height: 300px;
   width: 300px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  color : white;
+  font-size: 25px;
+}
+
+.navbar-inverse{
+  background-color: #000089;
+}
+
+.navbar-inverse .navbar-toggle{
+  border-color :#000089 ;
+  background-color: #000089;
+}
+
+.navbar-inverse 
+.navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover{
+  background-color: #000089;
 }
